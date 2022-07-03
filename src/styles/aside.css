@@ -1,5 +1,5 @@
 .main-aside {
-  @apply h-full min-h-full w-1/4 bg-twitter-blue pl-5 pr-16 pt-1;
+  @apply font-Ubuntu h-full min-h-full w-1/4 bg-twitter-blue pl-5 pr-10 pt-1;
 }
 .search-bar {
   @apply w-full px-3 bg-slate-500 bg-opacity-50 rounded-full flex items-center border-[1px] border-transparent focus-within:border-blue-600 transition-all duration-100;
@@ -8,9 +8,26 @@
   @apply h-full p-3 w-full bg-transparent outline-none;
 }
 .search-bar:focus-within svg {
-  @apply fill-blue-600
+  @apply fill-blue-600;
 }
 .search-bar svg {
   @apply w-[20px] h-[20px] fill-slate-500;
 }
-/*border-[1px] border-blue-600*/
+.about-now {
+  @apply bg-slate-500 bg-opacity-40 h-[450px] w-full text-slate-200 rounded-xl my-3 flex flex-col;
+}
+.trading-topic {
+  @apply h-28 w-full hover:bg-slate-500 hover:bg-opacity-10 transition-all duration-300 cursor-pointer flex flex-col gap-2 p-3;
+}
+.title {
+  @apply text-lg;
+}
+.topic {
+  @apply text-sm font-thin text-slate-400;
+}
+.count {
+  @apply text-sm text-slate-400;
+}
+.show-more {
+  @apply text-blue-600 text-sm font-thin flex-1 rounded-b-lg hover:bg-slate-500 hover:bg-opacity-10 flex items-center p-3 cursor-pointer;
+}
