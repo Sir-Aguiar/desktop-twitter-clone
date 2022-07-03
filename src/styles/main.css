@@ -1,3 +1,6 @@
 .twitter-main {
-  @apply border-[1px] border-slate-300 flex-1 bg-twitter-blue;
+  @apply  min-h-[400vh] flex-1 flex justify-end bg-twitter-blue;
+}
+.tweets {
+  @apply flex-1 border-[1px] border-slate-500 border-opacity-50
 }

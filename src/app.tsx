@@ -8,7 +8,6 @@ const App: React.FC = () => {
     <div className="main-container">
       <Header />
       <Main />
-      <Aside />
     </div>
   );
 };

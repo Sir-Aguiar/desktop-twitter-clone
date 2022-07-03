@@ -1,5 +1,5 @@
 .main-header {
-  @apply  h-full min-h-full w-1/4 bg-twitter-blue;
+  @apply w-1/4 bg-twitter-blue;
 }
 .header-content {
   @apply h-full min-h-full w-3/4 float-right flex flex-col items-start px-2;
