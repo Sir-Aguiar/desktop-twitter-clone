@@ -1,0 +1,3 @@
+.twitter-main {
+  @apply border-[1px] border-slate-300 flex-1 bg-twitter-blue;
+}
