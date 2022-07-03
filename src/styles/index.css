@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  min-height: 100vh;
+  height: 100%;
+}
+#root {
+  @apply min-h-full h-full w-full overflow-x-hidden overflow-y-auto;
+}
+.main-container {
+  @apply flex min-h-full h-full w-full
+}
