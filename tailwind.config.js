@@ -12,6 +12,7 @@ module.exports = {
       colors: {
         "twitter-blue":"#15202b",
         "tweet-button":"#1A8CD8",
+        "tweet-icons":"rgb(29,155,240)"
       }
     },
   },
