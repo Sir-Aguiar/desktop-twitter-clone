@@ -29,5 +29,60 @@
   @apply flex items-start flex-1 gap-5;
 }
 .whatsup-tweet {
-  @apply bg-transparent resize-none outline-none flex-1 h-full placeholder:text-lg text-slate-300 placeholder:font-semibold placeholder:text-slate-500 ;
+  @apply bg-transparent resize-none outline-none flex-1 h-full placeholder:text-lg text-slate-300 placeholder:font-semibold placeholder:text-slate-500;
+}
+.user-tweet {
+  @apply flex p-5 border-y-[1px] border-slate-500 border-opacity-50;
+}
+.tweet-author {
+  @apply max-w-[40px] max-h-[40px] mx-2;
+}
+.tweet-body {
+  @apply flex flex-col;
+}
+.tweet-header {
+  @apply flex text-slate-500 gap-2;
+}
+.tweet {
+  @apply text-slate-200 text-left font-sans font-normal;
+}
+.tweet-content {
+  @apply flex flex-col gap-1;
+}
+.tweet-icons {
+  @apply flex justify-between items-center w-[90%];
+}
+.tweet-icons svg {
+  @apply w-[20px] h-[20px] fill-slate-500 transition-all;
+}
+
+.tweet-icons span {
+  @apply flex items-center gap-2 text-base text-slate-500 cursor-pointer transition-all;
+}
+.coment {
+  @apply hover:text-blue-500;
+}
+.coment svg {
+  @apply p-1 bg-blue-500 rounded-full bg-opacity-0 h-[26px] w-[26px];
+}
+.coment:hover svg {
+  @apply fill-blue-500 bg-opacity-50;
+}
+.retweet {
+  @apply hover:text-green-600;
+}
+.retweet svg {
+  @apply p-1 bg-green-600 rounded-full bg-opacity-0 h-[26px] w-[26px];
+}
+.retweet:hover svg {
+  @apply fill-green-600 bg-opacity-50;
+}
+.like {
+  @apply hover:text-rose-500;
+}
+.like svg {
+  @apply p-1 bg-rose-500 rounded-full bg-opacity-0 h-[26px] w-[26px];
+}
+.like:hover svg {
+  @apply fill-rose-500 bg-opacity-50;
 }
